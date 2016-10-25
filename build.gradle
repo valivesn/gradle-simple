@@ -3,6 +3,7 @@ apply plugin: 'maven'
 
 group = 'com.github.jitpack'
 println "MASKED_PASSWORD: ${System.getenv().get('hello')}"
+println "MASKED_PASSWORD: ${System.getenv().get('surya')}"
 //println hello
 sourceCompatibility = 1.8 // java 8
 targetCompatibility = 1.8
