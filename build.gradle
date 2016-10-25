@@ -5,7 +5,7 @@ group = 'com.github.jitpack'
 println "MASKED_PASSWORD: ${System.getenv().get('kiran')}"
 String password= "MASKED_PASSWORD: ${System.getenv().get('hello')}"
 
-if(password.equals("jati"){
+if(password.equals("jati")){
 println "hoooraayy"
 
 }
