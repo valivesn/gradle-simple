@@ -3,17 +3,22 @@ apply plugin: 'maven'
 
 group = 'com.github.jitpack'
 println "MASKED_PASSWORD: ${System.getenv().get('kiran')}"
-println "MASKED_PASSWORD: ${System.getenv().get('surya')}"
+String password= "MASKED_PASSWORD: ${System.getenv().get('hello')}"
+
+if(password.equals("jati"){
+println "hoooraayy"
+
+}
 //println hello
 sourceCompatibility = 1.8 // java 8
 targetCompatibility = 1.8
 
-def env = System.getenv()
+//def env = System.getenv()
 //Print all the environment variables.
 
-env.each{
-println it
-} 
+//env.each{
+//println it
+//} 
 
 repositories {
   mavenCentral()
