@@ -8,13 +8,12 @@ println "MASKED_PASSWORD: ${System.getenv().get('surya')}"
 sourceCompatibility = 1.8 // java 8
 targetCompatibility = 1.8
 
-class MaskedPasswords {
-static void main(String[] args) {
-println "MASKED_PASSWORD: $
-{System.getenv().get('indy')}"
+def env = System.getenv()
+//Print all the environment variables.
 
-}
-}
+env.each{
+println it
+} 
 
 repositories {
   mavenCentral()
