@@ -4,7 +4,7 @@ apply plugin: 'maven'
 group = 'com.github.jitpack'
 println "$System.env.surya"
 
-println System.env.hello
+println hello
 sourceCompatibility = 1.8 // java 8
 targetCompatibility = 1.8
 
